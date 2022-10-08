@@ -118,3 +118,49 @@ class Second {
 
 
 
+
+
+//Call a method from main method
+
+  /* static void sabbir() {
+    System.out.println("I just got executed! i am sabbir");
+  }
+
+  public static void main(String[] args) {
+    sabbir();
+    sabbir();
+    sabbir();
+    sabbir();
+    sabbir();
+    sabbir();
+    sabbir();
+    sabbir();
+  } */
+
+  /* //parameter passing
+  static void emon(String meye, int age){
+    System.out.println(meye + age);
+  }
+
+  public static void main(String[] args) {
+
+    emon("Liza ",50);
+    emon("Lima ",50);
+    emon("Lamia ",50);
+    emon("Sadia ",50);
+    emon("Sarah  ",50);
+
+  } */
+
+public class Methods {
+  static int myMethod(int x, int y) {
+    return x+y;
+  }
+
+
+  public static void main(String[] args) {
+    
+  System.out.println(myMethod(5,10));
+  }
+
+}

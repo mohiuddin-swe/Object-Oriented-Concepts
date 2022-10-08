@@ -1,55 +1,50 @@
-//Java Strings
+public class string{
+    public static void main(String[]args){
+
+      /*   String myName = "Sabbir Hossen Emon";
+        System.out.println(myName);
+        System.out.println("My name length is:" + myName.length() + " ok");
+
+        System.out.println(myName.toUpperCase());
+        System.out.println(myName.toLowerCase());
+
+        System.out.println(myName.indexOf("Emon"));
+
+        String firstName = "Sabbir Hossen";
+        String lastName = "Emon";
+
+        System.out.println(firstName + " " + lastName); */
+/* 
+    String x = "10";
+    String y = "20";
+    String z = x + y;  // z will be 1020 (a String)
+    System.out.println(z); */
     
-    String greeting = "Hello";
+    String x = "10";
+    int y = 20;
+    int s = 50;
+    String z = x + y + s;
+    System.out.println(z);
+
     
-    //String length
-    
-    String txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    System.out.println("The length of the txt string is: " + txt.length());
-    
-    //More Strings Methods
-    
-    String txt = "Hello World";
-    System.out.println(txt.toUpperCase());   // Outputs "HELLO WORLD"
-    System.out.println(txt.toLowerCase());   // Outputs "hello world"
-    
-    //Finding a Character in a String
-    
-    String txt = "Please locate where 'locate' occurs!";
-    System.out.println(txt.indexOf("locate")); // Outputs 7
-    */
+
+
+
+    }
+}
+/* 
     
     
-    /*
-    //String Concatenation
-    String firstName = "John";
-    String lastName = "Doe";
-    System.out.println(firstName + " " + lastName);
-    
-    
-    
-    
-    String firstName = "John ";
-    String lastName = "Doe";
-    System.out.println(firstName.concat(lastName));
+
     
     */
     
     /*
     Adding Numbers and Strings
     
-    int x = 10;
-    int y = 20;
-    int z = x + y;  // z will be 30 (an integer/number)
+    )
     
-    String x = "10";
-    String y = "20";
-    String z = x + y;  // z will be 1020 (a String)
-    
-    String x = "10";
-    int y = 20;
-    String z = x + y;  // z will be 1020 (a String)
-    
+   
     */
     
     /*
@@ -60,5 +55,5 @@
     \t	Tab	
     \b	Backspace	
     \f	Form Feed
-    */
-    
+
+     */

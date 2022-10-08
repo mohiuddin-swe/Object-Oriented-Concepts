@@ -1,3 +1,35 @@
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class Arraylist {
+ public static void main(String[] args){
+
+    ArrayList<String> people = new ArrayList<String>();
+
+    people.add("Mohiuddin");
+    people.add("Sabbir");
+    people.add("Akbar");
+    people.add("Sanjoy");
+
+    /* people.set(1,"Sourab");
+
+    people.remove(2); */
+
+    //System.out.println(people);
+
+   /*  for (int i = 0; i < 4; i++) {
+      System.out.println(people.get(i));
+    } */
+   
+   Collections.sort(people);
+   
+    for(String i:people){
+      System.out.println(i);
+    }
+
+  }
+} 
+
 /*
 //Java ArrayList
 
@@ -9,26 +41,6 @@ ArrayList<String> cars = new ArrayList<String>(); // Create an ArrayList object
 */
 
 
-//Add Items
-
-/*
-import java.util.ArrayList;
-
-public class Main {
-  public static void main(String[] args) {
-    ArrayList<String> cars = new ArrayList<String>();
-    cars.add("Volvo");
-    cars.add("BMW");
-    cars.add("Ford");
-    cars.add("Mazda");
-    System.out.println(cars);
-  }
-}
-*/
-
-
-//Access an Item
-//cars.get(0);
 
 //Change an Item
 //cars.set(0, "Opel");
@@ -44,21 +56,21 @@ public class Main {
 
 //Loop Through an ArrayList
 
-/*
-public class Main {
+/* import java.util.ArrayList;
+public class Arraylist {
   public static void main(String[] args) {
     ArrayList<String> cars = new ArrayList<String>();
     cars.add("Volvo");
     cars.add("BMW");
     cars.add("Ford");
     cars.add("Mazda");
-    for (int i = 0; i < cars.size(); i++) {
+    for (int i = 0; i <4; i++) {
       System.out.println(cars.get(i));
     }
   }
-}
+} */
 
-*/
+
 
 //ArrayList with the for-each loop:
 /*
