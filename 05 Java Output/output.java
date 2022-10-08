@@ -14,6 +14,15 @@ public class output{
     System.out.println(25+30);
     System.out.println(25.517);
     System.out.println(-25);
+
+
+     String myname = "sabbir";
+    System.out.println(int);
+    
+    String myName = "sabbir";
+    System.out.println(myName);
     
     }
+
+    
     }

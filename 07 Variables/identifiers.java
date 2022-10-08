@@ -1,10 +1,17 @@
-/*Java Identifiers
+Java Identifiers 
     
     // Good
     int minutesPerHour = 60;
     
     // OK, but not so easy to understand what m actually is
     int m = 60;
+
+    string myname = "sabbir";
+    System.out.println(myname);
+    
+    string myName = "EMon";
+    System.out.println(myName);
+    
     
     
     The general rules for naming variables are:

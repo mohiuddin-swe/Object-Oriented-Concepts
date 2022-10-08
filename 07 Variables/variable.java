@@ -4,19 +4,25 @@
     
     //Declaring varibale 
 
-    public class Main{
+    public class variable{
     public static void main(String[] args){
     
-    String name = "Jhon"
+    String name = "Jhon";
     System.out.println(name);
     
     int myNum = 15;
+    myNum= 20;
     System.out.println(myNum);
-
-    Final variables
     
-    final int mynum = 15;
-    myNum = 20; //will generate an error
+    final int num = 15;
+    System.out.println(num);
+
+    }
+    }
+
+  //  Final variables
+    
+    /* 
 
    //Other Variable Types
     
@@ -55,9 +61,8 @@
     x = y = z = 50;
     System.out.println(x + y + z);
     
-    }
-    }
     
+     */
     
     
     
